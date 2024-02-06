@@ -1,6 +1,6 @@
 void call(){
   stage("Java: deploy") {
-    println "configServer: {$configServer}"
+    println "configServer: ${config.configServer}"
     println "java: deploy()"
   }
 }
